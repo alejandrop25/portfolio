@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Perrone | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/icon.png">
+</head>
+<body class="bg-dark text-slate-300 font-sans antialiased selection:bg-brand selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-dark/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="text-2xl font-bold text-white hover:text-brand transition">
+                    Alejandro<span class="text-brand">.dev</span>
+                </a>
+
+                <div id="menu" class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-brand transition">Início</a>
+                    <a href="#sobre" class="hover:text-brand transition">Sobre</a>
+                    <a href="#projetos" class="hover:text-brand transition">Projetos</a>
+                    <a href="#contato" class="px-4 py-2 border border-brand text-brand rounded hover:bg-brand hover:text-white transition">Contato</a>
+                </div>
+
+                <button id="menu-btn" class="md:hidden text-2xl text-white focus:outline-none">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-card border-b border-slate-700">
+            <a href="#home" class="block py-3 px-4 hover:bg-slate-700 hover:text-brand">Início</a>
+            <a href="#sobre" class="block py-3 px-4 hover:bg-slate-700 hover:text-brand">Sobre</a>
+            <a href="#projetos" class="block py-3 px-4 hover:bg-slate-700 hover:text-brand">Projetos</a>
+            <a href="#contato" class="block py-3 px-4 hover:bg-slate-700 hover:text-brand">Contato</a>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex justify-center pt-[25vh]">
+        <div class="text-center px-4 max-w-full mx-auto">
+            <p class="text-brand text-2xl font-medium mb-4">Olá, me chamo Alejandro</p>
+            <h1 class="text-5xl md:text-8xl font-bold text-white mb-6 leading-tight">
+                 Soluções <br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-purple-400">
+                    inteligentes e ágeis.
+                </span>
+            </h1>
+            <p class="text-lg text-slate-400 mt-10 mb-8 max-w-xl mx-auto">
+                Meu objetivo é entregar soluções eficientes que resolvam problemas reais através da tecnologia.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#projetos" class="px-8 py-3 bg-brand text-white font-medium rounded-full hover:bg-purple-600 transition shadow-lg shadow-brand/25">
+                    Ver Projetos
+                </a>
+                <a href="https://github.com/alejandrop25" target="_blank" class="px-8 py-3 border border-slate-600 text-white font-medium rounded-full hover:border-brand hover:text-brand transition">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">Projetos em Destaque</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-card rounded-xl overflow-hidden border border-slate-800 hover:border-brand transition hover:-translate-y-2 duration-300 group">
+    
+    <div class="h-48 overflow-hidden">
+        <img src="./assets/img-dash-monitoramento.jpg" alt="Projeto Dashboard Caldeiras" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand transition">Dashboard Monitoramento</h3>
+        <p class="text-slate-400 text-sm mb-4">
+            Sistema de monitoramento de temperatura das caldeiras e de nível de cisterna de um empreendimento. O projeto foi feito utilizando o microcontrolador ESP32, sensores de temperatura e nível, e uma API para exibir os dados em tempo real.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">JavaScript</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">HTML</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">CSS</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">API</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">Node.js</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">ESP 32</span>
+        </div>
+        <a href="https://dashboard-temperaturas-esp32.onrender.com" target="_blank" class="text-sm text-white font-medium hover:underline">Ver &rarr;</a>
+    </div>
+</div>
+
+                <div class="bg-card rounded-xl overflow-hidden border border-slate-800 hover:border-brand transition hover:-translate-y-2 duration-300 group">
+                    <div class="h-48 overflow-hidden">
+        <img src="./assets/img-dash-cisterna.jpg" alt="Projeto Dashboard Cisterna" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand transition">Dashboard Cisternas</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Sistema de monitoramento de nível das cisterna de um empreendimento. O projeto foi feito utilizando o microcontrolador ESP32, sensores de nível, e uma API para exibir os dados em tempo real.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">JavaScript</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">HTML</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">CSS</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">API</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">Node.js</span>
+            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">ESP 32</span>
+        </div>
+                        <a href="https://frontend-cisterna.onrender.com" class="text-sm text-white font-medium hover:underline">Ver &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="bg-card rounded-xl overflow-hidden border border-slate-800 hover:border-brand transition hover:-translate-y-2 duration-300 group">
+                    <div class="h-48 bg-slate-700 flex items-center justify-center text-slate-500">
+                        <i class="ph ph-shopping-cart text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand transition">E-commerce API</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Backend robusto para loja virtual com sistema de filas e banco de dados.
+                        </p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">Docker</span>
+                            <span class="text-xs bg-slate-800 px-2 py-1 rounded text-brand border border-slate-700">SQL</span>
+                        </div>
+                        <a href="#" class="text-sm text-white font-medium hover:underline">Ver Código &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-20 bg-card border-t border-slate-800">
+        <div class="max-w-2xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Vamos trabalhar juntos?</h2>
+            <p class="text-slate-400 mb-8">
+                Estou disponível para novos projetos e desafios. Mande uma mensagem e vamos conversar sobre tecnologia.
+            </p>
+            <a href="mailto:alejandrop2506@gmail.com" class="inline-flex items-center gap-2 px-5 py-2 bg-brand text-white font-bold rounded-lg hover:bg-purple-600 transition">
+                <i class="ph ph-envelope text-xl"></i>
+                Enviar E-mail
+            </a>
+            
+            <div class="mt-12 flex justify-center gap-6 text-2xl text-slate-400">
+                <a href="https://www.linkedin.com/in/alejandro-perrone-441464329/" class="hover:text-white transition"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://github.com/alejandrop25" class="hover:text-white transition"><i class="ph ph-github-logo"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-6 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2024 Alejandro Perrone.</p>
+    </footer>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</body>
+</html>

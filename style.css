@@ -1,0 +1,16 @@
+/* A estilização principal do seu projeto é feita pelas classes do Tailwind CSS.
+  Utilize este arquivo para adicionar estilos personalizados, sobrescrever comportamentos 
+  ou criar classes que o Tailwind não cobre nativamente via CDN.
+*/
+
+html {
+    /* Garantia extra de scroll suave caso o navegador não suporte a classe do Tailwind */
+    scroll-behavior: smooth;
+}
+
+#menu{
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}

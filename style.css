@@ -4,7 +4,6 @@
 */
 
 html {
-    /* Garantia extra de scroll suave caso o navegador não suporte a classe do Tailwind */
     scroll-behavior: smooth;
 }
 
@@ -13,4 +12,23 @@ html {
     display: flex;
     align-items: center;
     margin-left: 100px;
+}
+
+.glow-sphere {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50vw;
+    max-width: 650px;
+    max-height: 650px;
+    min-width: 350px;
+    min-height: 350px;
+    background: linear-gradient(135deg, #a855f7 0%, #6366f1 50%, #06b6d4 100%);
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.45;
+    z-index: -1;
+    pointer-events: none;
 }

@@ -1,5 +1,7 @@
 # Portfólio — Alejandro Perrone
 
+[Acessar](https://alejandrop25.github.io/portfolio)
+
 Meu objetivo é transformar ideias e necessidades em **soluções digitais funcionais, modernas, responsivas e fáceis de utilizar**.
 
 ## 🛠️ Tecnologias

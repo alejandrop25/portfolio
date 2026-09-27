@@ -1,32 +1,56 @@
-# Sistema de Agendamento
+# Portfólio — Alejandro Perrone
 
-Sistema completo de agendamento desenvolvido para facilitar o gerenciamento de horários e atendimentos de profissionais e estabelecimentos, como **estúdios de tatuagem, clínicas, salões e outros serviços**.
-## Tecnologias
+[Acessar](https://alejandrop25.github.io/portfolio)
 
-### Front-end
+Meu objetivo é transformar ideias e necessidades em **soluções digitais funcionais, modernas, responsivas e fáceis de utilizar**.
 
-* React
-* JavaScript
-* HTML
-* CSS
+## 🛠️ Tecnologias
 
-### Back-end
+As principais tecnologias utilizadas nos meus projetos incluem:
 
-* Node.js
-* API REST
+| Tecnologia   | Utilização                             |
+| ------------ | -------------------------------------- |
+| HTML5        | Estrutura das páginas                  |
+| CSS3         | Estilização e responsividade           |
+| JavaScript   | Interatividade e funcionalidades       |
+| React        | Desenvolvimento de interfaces          |
+| Node.js      | Backend e APIs                         |
+| PostgreSQL   | Banco de dados relacional              |
+| Tailwind CSS | Desenvolvimento de interfaces          |
+| Git          | Versionamento                  |
+| GitHub       | Hospedagem e gerenciamento de projetos |
 
-### Banco de dados
+### 🌐 Sites e Landing Pages
 
-* PostgreSQL
+* Sites institucionais
+* Landing pages
+* Páginas para divulgação de serviços
+* Páginas para geração de leads
+* Portfólios profissionais
 
-## Funcionalidades
+### 💻 Sistemas Web
 
-* Criação e gerenciamento de agendamentos
-* Cadastro e gerenciamento de usuários
-* Gerenciamento de profissionais
-* Controle de horários disponíveis
-* Sistema de autenticação
-* Visualização e organização da agenda
-* Interface responsiva para diferentes dispositivos
-* Persistência dos dados utilizando PostgreSQL
-* Comunicação entre front-end e back-end através de API
+* Sistemas de agendamento
+* Sistemas administrativos
+* Dashboards
+* Sistemas de gerenciamento
+* Aplicações web personalizadas
+
+### 🔌 APIs e Backend
+
+* APIs REST
+* Integração entre sistemas
+* Desenvolvimento de backends
+* Integração com bancos de dados
+
+---
+
+## 📱 Responsividade
+
+Os projetos são desenvolvidos pensando em diferentes dispositivos, proporcionando uma experiência adequada em:
+
+* 💻 Computadores
+* 💻 Notebooks
+* 📱 Smartphones
+* 📱 Tablets
+

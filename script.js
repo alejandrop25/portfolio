@@ -1,4 +1,7 @@
-// 1. Configuração do Tailwind CSS (Precisa ser executada antes do Tailwind carregar)
+window.addEventListener("load", function () {
+    const loader = document.getElementById("loading-screen");
+    loader.classList.add("hidden");
+});
 window.tailwind = window.tailwind || {};
 tailwind.config = {
     theme: {

@@ -1,11 +1,21 @@
-function hideLoader() {
-    const loader = document.getElementById("loading-screen");
-    if (loader) {
-      loader.classList.add("hidden");
+(function () {
+    function removeLoader() {
+      const loader = document.getElementById("loading-screen");
+      if (loader) {
+        loader.classList.add("hidden");
+        setTimeout(() => {
+          loader.remove();
+        }, 100);
+      }
     }
-  }
-  window.addEventListener("load", hideLoader);
-  setTimeout(hideLoader, 3000);
+    if (document.readyState === "complete") {
+      removeLoader();
+    } else {
+      window.addEventListener("load", removeLoader);
+      document.addEventListener("DOMContentLoaded", removeLoader);
+    }
+    setTimeout(removeLoader, 2500);
+  })();
 window.tailwind = window.tailwind || {};
 tailwind.config = {
     theme: {

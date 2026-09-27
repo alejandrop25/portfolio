@@ -1,15 +1,19 @@
-window.addEventListener("load", function () {
+function hideLoader() {
     const loader = document.getElementById("loading-screen");
-    loader.classList.add("hidden");
-});
+    if (loader) {
+      loader.classList.add("hidden");
+    }
+  }
+  window.addEventListener("load", hideLoader);
+  setTimeout(hideLoader, 3000);
 window.tailwind = window.tailwind || {};
 tailwind.config = {
     theme: {
         extend: {
             colors: {
-                brand: '#8b5cf6', // Roxo (Violet-500). Tente '#3b82f6' para azul.
-                dark: '#0f172a',  // Fundo escuro
-                card: '#1e293b'   // Fundo dos cartões
+                brand: '#8b5cf6',
+                dark: '#0f172a', 
+                card: '#1e293b' 
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],
@@ -18,7 +22,6 @@ tailwind.config = {
     }
 };
 
-// 2. Lógica de Interatividade (Executada após o carregamento do HTML)
 document.addEventListener('DOMContentLoaded', () => {
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
